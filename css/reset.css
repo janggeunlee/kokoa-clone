@@ -1,0 +1,47 @@
+*,
+*::before,
+*::after {
+  box-sizing: border-box; /* Ensures padding and borders are included in element's total width/height */
+}
+* {
+  margin: 0; /* Removes default margins from all elements */
+  padding: 0; /* Removes default padding from all elements */
+  font: inherit; /* Ensures form elements inherit font properties */
+  color: inherit; /* Ensures elements like links inherit color properties */
+}
+img,
+picture,
+video,
+canvas,
+svg {
+  display: block; /* Helps with alignment and spacing issues */
+  max-width: 100%; /* Makes images responsive by default */
+}
+input,
+button,
+textarea,
+select {
+  font: inherit; /* Solves font inheritance issues in form elements */
+}
+p,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  overflow-wrap: break-word; /* Prevents long words from overflowing containers */
+}
+
+input:focus {
+  outline: none;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+ul {
+  list-style-type: none;
+}
